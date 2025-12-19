@@ -3,7 +3,7 @@ on: push
 jobs:
   my_first_job:
     name: My first job
-    runs-on: selfhosted
+    runs-on: Default
     steps:
       - name: Checkout
         uses: actions/checkout@v5.0.0
