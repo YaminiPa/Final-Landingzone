@@ -1,0 +1,17 @@
+name: firstproject
+on: push
+jobs:
+  my_first_job:
+    name: My first job
+    runs-on: selfhosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5.0.0
+
+      - name: HashiCorp - Setup Terraform
+        uses: hashicorp/setup-terraform@v2.0.3
+
+
+
+   
+    
